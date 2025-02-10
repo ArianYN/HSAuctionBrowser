@@ -7,6 +7,7 @@ You can also search for auctions from a specific Player, by their IGN
 
 # Filters
 These are the filters that currently exist for the application:
+- Search
 - Ultimate Enchant Selector
 - Item Category Selector
 - Item Rarity Selector
@@ -20,3 +21,8 @@ These are the filters that currently exist for the application:
 When starting the application for the first time, it will be empty. You will need to press "Fetch" to fetch all auctions from their API.
 This action saves the Auctions and "Last-Fetch" time to a file. Next time the application is opened, it will read from this file to start with.
 This is done to prevent the application from stressing Hypixels API by too many requests (https://api.hypixel.net/#tag/SkyBlock/paths/~1v2~1skyblock~1auction/get)
+
+# Usage
+You can scroll/search through all Auctions.
+If you wish to look at the specifics of an auction, you can double-click on it to load the item
+and find the seller and command to view the auction in-game

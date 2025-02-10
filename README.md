@@ -1,28 +1,30 @@
 # Hypixel Skyblock Auction Browser
-An application to easily browse and filter Auctions for Hypixel Skyblock using Hypixels Auction API
 
-# Features
-With this application, you can fetch all auctions from the Hypixel API, and find exactly the item you are looking for using various filters.
-You can also search for auctions from a specific Player, by their IGN
+A powerful and user-friendly application for browsing and filtering auctions in Hypixel Skyblock using Hypixel's Auction API.
 
-# Filters
-These are the filters that currently exist for the application:
-- Search
-- Ultimate Enchant Selector
-- Item Category Selector
-- Item Rarity Selector
-- Dungeon Stars Selector
-- Max Price Specification
-- Fully Scrolled (Of course only works with to Wither Blades.)
-- Only BIN's
+## Features
+Easily search and filter auctions to find exactly what you're looking for. The application allows you to:
+- Fetch all active auctions from the Hypixel API.
+- Apply various filters to refine your search.
+- Search for auctions by a specific player using their IGN.
 
-# Info
+## Filters
+The application currently supports the following filters:
+- **Search** – Find specific items by item-name.
+- **Ultimate Enchant Selector** – Filter auctions by specific ultimate enchantment.
+- **Item Category Selector** – Filter auctions by item type.
+- **Item Rarity Selector** – Filter auctions by item rarity.
+- **Dungeon Stars Selector** – Show only items, with specific amount of dungeon-stars.
+- **Max Price Specification** – Set a maximum price to narrow down auctions.
+- **Fully Scrolled** – Filters for fully scrolled Wither Blades.
+- **Only BIN's** – View only BIN
 
-When starting the application for the first time, it will be empty. You will need to press "Fetch" to fetch all auctions from their API.
-This action saves the Auctions and "Last-Fetch" time to a file. Next time the application is opened, it will read from this file to start with.
-This is done to prevent the application from stressing Hypixels API by too many requests (https://api.hypixel.net/#tag/SkyBlock/paths/~1v2~1skyblock~1auction/get)
+## How It Works
+When launching the application for the first time, it will start empty. Press the **Fetch** button to retrieve the latest auctions from the Hypixel API. The fetched auctions, along with the last retrieval timestamp, are saved to a file. On subsequent launches, the application loads data from this file to avoid excessive requests to the Hypixel API. This helps prevent unnecessary API stress. *(More details: [Hypixel API Documentation](https://api.hypixel.net/#tag/SkyBlock/paths/~1v2~1skyblock~1auction/get))*
 
-# Usage
-You can scroll/search through all Auctions.
-If you wish to look at the specifics of an auction, you can double-click on it to load the item
-and find the seller and command to view the auction in-game
+## Usage
+- Scroll or search through all auctions.
+- Double-click an auction to view its details, including the seller and in-game command to inspect the auction.
+
+Enjoy a better auction browser with the Hypixel Skyblock Auction Browser!
+

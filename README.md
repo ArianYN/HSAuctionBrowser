@@ -28,3 +28,7 @@ When launching the application for the first time, it will start empty. Press th
 
 Enjoy a better auction browser with the Hypixel Skyblock Auction Browser!
 
+## Installation
+To use the browser, simply click **Code** in the upper right corner, and press **Download Zip**
+Once downloaded, extract the files to any folder you would like, and simply launch the **.exe** file.
+

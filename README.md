@@ -24,7 +24,7 @@ When launching the application for the first time, it will start empty. Press th
 
 ## Usage
 - Scroll or search through all auctions.
-- Double-click an auction to view its details, including the seller and in-game command to inspect the auction.
+- Double-click an auction to view its details, including the seller and in-game command to view the auction.
 
 Enjoy a better auction browser with the Hypixel Skyblock Auction Browser!
 

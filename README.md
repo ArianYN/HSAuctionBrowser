@@ -9,7 +9,7 @@ Easily search and filter auctions to find exactly what you're looking for. The a
 - Search for auctions by a specific player using their IGN.
 
 ## Filters
-The application currently supports the following filters:
+The application currently has the following filters to modify:
 - **Search** – Find specific items by item-name.
 - **Ultimate Enchant Selector** – Filter auctions by specific ultimate enchantment.
 - **Item Category Selector** – Filter auctions by item type.
